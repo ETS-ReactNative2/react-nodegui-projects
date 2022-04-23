@@ -1,12 +1,12 @@
-import { Text, View } from "@nodegui/react-nodegui"
-import React from "react"
-const dogImg = require("./dog")
+import { Text, View } from '@nodegui/react-nodegui'
+import React from 'react'
+const dogImg = require('./dog')
 
 export function StepOne() {
   return (
     <View style={containerStyle}>
       <Text wordWrap={true}>
-        Edit App.tsx to make changes to this screen. Then come back to see your
+        Edit App.tsx to make changes to this screen! Then come back to see your
         changes. Changes should reflect live thanks to Hot Reloading. 🔥
       </Text>
       <Text>
@@ -25,6 +25,6 @@ export function StepOne() {
 }
 
 const containerStyle = `
-    margin-horizontal: 20px;
-    padding-horizontal: 10px;
+  margin-horizontal: 20px;
+  padding-horizontal: 10px;
 `

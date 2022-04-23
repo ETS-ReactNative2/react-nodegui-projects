@@ -1,9 +1,9 @@
-import { Text, Window, hot, View } from "@nodegui/react-nodegui"
-import React from "react"
-import { QIcon } from "@nodegui/nodegui"
-import { StepOne } from "./components/stepone"
-import { StepTwo } from "./components/steptwo"
-import nodeguiIcon from "../assets/nodegui.jpg"
+import { Text, Window, hot, View } from '@nodegui/react-nodegui'
+import React from 'react'
+import { QIcon } from '@nodegui/nodegui'
+import { StepOne } from './components/stepone'
+import { StepTwo } from './components/steptwo'
+import nodeguiIcon from '../assets/nodegui.jpg'
 
 const minSize = { width: 500, height: 520 }
 const winIcon = new QIcon(nodeguiIcon)
@@ -12,13 +12,13 @@ class App extends React.Component {
     return (
       <Window
         windowIcon={winIcon}
-        windowTitle="Hello 👋🏽"
+        windowTitle='Hello 👋🏽'
         minSize={minSize}
         styleSheet={styleSheet}
       >
         <View style={containerStyle}>
           <Text id="welcome-text">React Node GUI 🐕</Text>
-          <Text id="step-1">1. Play around!</Text>
+          <Text id="step-1">1. Play around.</Text>
           <StepOne />
           <Text id="step-2">2. Debug.</Text>
           <StepTwo />

@@ -1,12 +1,12 @@
-import { Text, View, Button, useEventHandler } from "@nodegui/react-nodegui"
-import { QPushButtonSignals } from "@nodegui/nodegui"
-import React from "react"
-import open from "open"
+import { Text, View, Button, useEventHandler } from '@nodegui/react-nodegui'
+import { QPushButtonSignals } from '@nodegui/nodegui'
+import React from 'react'
+import open from 'open'
 
 export function StepTwo() {
   const btnHandler = useEventHandler<QPushButtonSignals>(
     {
-      clicked: () => open("https://react.nodegui.org").catch(console.log)
+      clicked: () => open('https://react.nodegui.org').catch(console.log)
     },
     []
   )
@@ -20,11 +20,11 @@ export function StepTwo() {
             </li>
             <br/>
               <li>
-                  Next click on  "Open dedicated DevTools for Node"
+                  Next click on  'Open dedicated DevTools for Node'
               </li>
               <br/>
             <li>
-                On the dedicated devtools. Click on Source > Node > "Your node process"
+                On the dedicated devtools. Click on Source > Node > 'Your node process'
             </li>
           </ol>
         `}
