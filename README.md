@@ -1,9 +1,9 @@
 # React Node GUI Projects
 Explores core React flavor of Node GUI, its capabilities and limitations. This repo contains examples of how React Node GUI utilizes the same patterns you'd normally find in plain React.
 
-1. Basics - Initial setup after a **git clone** of their starter project, then **npm install**, **npm run dev** and **npm start** in a separate tab.
+1. Basics - Initial setup after a **git clone** of their starter project, then **npm install**, **npm run dev** and **npm start** in a separate tab. Folder contains React Node GUI example from their website. See how presentation components are imported and displayed.
 
-2. Bare Bones Starter - TBD.
+2. Bare Bones Starter - Raw files and folders you would need on every React Node GUI project. Important to use this version over Create React App as running that command (even with React Node GUI flags) does not produce necessary scripts or setup for **npm run dev**.
 
 3. CSS Styling & Material UI - TBD.
 
@@ -26,8 +26,12 @@ Explores core React flavor of Node GUI, its capabilities and limitations. This r
 12. Routing - TBD.
 
 
+
 ### Capabilities
-- TBD
+- Fast and Performant CPU native apps made with React.
+- Alternatives like Electron are slower and have a higher cost performance-wise in comparison.
+- Able to use the NPM library to build desktop apps.
 
 ### Limitations
-- TBD
+- Limited Development Support; No team to maintain React Node GUI.
+- Tied to the React ecosystem and Node runtime where modern versions of React or Node may not be backwards compatible with React Node GUI.
