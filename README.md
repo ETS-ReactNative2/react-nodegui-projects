@@ -26,6 +26,6 @@ Explores core React flavor of Node GUI, its capabilities and limitations. This r
 12. Routing - TBD.
 
 
-## NOTES on capabilities: TBD
+### Capabilities
 
-## NOTES on limitations: TBD
+### Limitations
