@@ -28,9 +28,9 @@ Explores core React flavor of Node GUI, its capabilities and limitations. This r
 
 
 ### Capabilities
-- Fast and Performant CPU native apps made with React.
+- Fast and Performant CPU native desktop apps made with React.
 - Alternatives like Electron are slower and have a higher cost performance-wise in comparison.
-- Able to use the NPM library to build desktop apps.
+- Able to use the NPM library to build native desktop apps.
 
 ### Limitations
 - Limited Development Support; No team to maintain React Node GUI.
