@@ -9,7 +9,7 @@ Explores core React flavor of Node GUI, its capabilities and limitations. This r
 
 4. useState, useEffect & Two-Way Data Binding - TBD.
 
-5. UI Events - TBD.
+5. React Node GUI Elements & Events - TBD.
 
 6. AJAX - TBD.
 
