@@ -3,7 +3,7 @@ Explores core React flavor of Node GUI, its capabilities and limitations. This r
 
 1. Basics - Initial setup after a **git clone** of their starter project, then **npm install**, **npm run dev** and **npm start** in a separate tab. Folder contains React Node GUI example from their website. See how components from Qt are imported. NOTE: All CSS styling via React Node GUI is internal - therefore you CANNOT import external stylesheets or use bootstrapped components like Material UI or Bootstrap.
 
-2. Bare Bones Starter - All the files and folders you would need on a React Node GUI project. This starter is a bare minimum, unopinionated solution without State Management or boostraped Styling. Important to use this version over Create React App as running that command (even with React Node GUI flags) does not produce necessary scripts for **npm run dev**.
+2. Bare Bones Starter - All the files and folders you would need on a React Node GUI project. This starter is a bare minimum, unopinionated solution without State Management or Styling. Important to use this version over Create React App as running that command (even with React Node GUI flags) does not produce necessary scripts for **npm run dev**.
 
 3. React Hooks API - Basic examples of how using functional hooks like useState, useRef, useEffect, useReducer and useContext look inside a React Node GUI project.
 
