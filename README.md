@@ -5,7 +5,7 @@ Explores core React flavor of Node GUI, its capabilities and limitations. This r
 
 2. Bare Bones Starter - All the files and folders you would need on a React Node GUI project. This starter is a bare minimum, unopinionated solution without State Management or Styling. Important to use this version over Create React App as running that command (even with React Node GUI flags) does not produce necessary scripts for **npm run dev**.
 
-3. React Hooks API - Basic examples of how using functional hooks like useState, useRef, useEffect, useReducer and useContext look inside a React Node GUI project.
+3. React Hooks API - Basic examples of how using functional hooks like useState, useRef, useEffect, useReducer and useContext look inside of a React Node GUI project.
 
 4. React Node GUI Elements & Events - TBD.
 
