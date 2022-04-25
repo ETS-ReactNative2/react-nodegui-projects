@@ -1,5 +1,5 @@
 # React Node GUI Projects
-Explores core React flavor of Node GUI, its capabilities and limitations. This repo contains examples of how React Node GUI utilizes the same patterns you'd normally find in plain React.
+Explores the React flavor of Node GUI, its capabilities and limitations for native desktop applications.
 
 1. Basics - Initial setup after a **git clone** of their starter project, then **npm install**, **npm run dev** and **npm start** in a separate tab. Folder contains React Node GUI example from their website. See how components from Qt are imported. NOTE: All CSS styling via React Node GUI is internal - therefore you CANNOT import external stylesheets or use bootstrapped components like Material UI or Bootstrap.
 
@@ -31,3 +31,4 @@ Explores core React flavor of Node GUI, its capabilities and limitations. This r
 ### Limitations
 - Limited Development Support; No team to maintain React Node GUI or its GitHub issues.
 - Tied to the React ecosystem and Node runtime where modern versions of React or Node may not be backwards compatible with React Node GUI.
+- Not able to use boostrapped component libraries like Material UI.
