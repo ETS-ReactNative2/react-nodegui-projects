@@ -5,30 +5,17 @@ Explores the React flavor of Node GUI, its capabilities and limitations for nati
 
 2. Bare Bones Starter - All the files and folders you would need on a React Node GUI project. This starter is a bare minimum, unopinionated solution without State Management or Styling. Important to use this version over Create React App as running that command (even with React Node GUI flags) does not produce necessary scripts for **npm run dev**.
 
-3. React Hooks API - Basic examples of how using functional hooks like useState, useRef, useEffect, useReducer and useContext look inside of a React Node GUI project.
-
-4. React Node GUI Elements & Events - TBD.
-
-5. AJAX - TBD.
-
-6. Forms - TBD.
-
-7. Fragments & Portals - TBD.
-
-8. Selective Re-Render Techniques - TBD.
-
-9. Redux, Toolkit, React-Redux & Async Patterns - TBD.
-
-10. Routing - TBD.
-
+3. Hooks API & Events - Basic examples of how using essential React Hooks API and React Node GUI Events like inside of a React Node GUI project.
 
 
 ### Capabilities
 - Fast and Performant native desktop apps made with React.
 - Alternatives like Electron are much slower and have a higher memory cost in comparison.
 - Able to use the NPM library to build native desktop apps.
+- Easier to reason about a component-based application in comparison to Node GUI where Node was never a Front End technology.
 
 ### Limitations
-- Limited Development Support; No team to maintain React Node GUI or its GitHub issues.
-- Tied to the React ecosystem and Node runtime where modern versions of React or Node may not be backwards compatible with React Node GUI.
+- Learning how to style Qt components takes you back to learning CSS all over again.
+- At times you will need to read between three separate pieces of documentation from React Node GUI, Node GUI and Qt Docs.
 - Not able to use boostrapped component libraries like Material UI.
+- Limited Developer Maintainer Support; No team to maintain React Node GUI or its GitHub issues.
