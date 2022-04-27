@@ -12,16 +12,16 @@ const App = () => {
       windowIcon={winIcon}
       windowTitle=''
       minSize={minSize}
-      styleSheet={styleSheet}
+      styleSheet={windowStylesheet}
     >
-      <View style={containerStyle}>
+      <View style={viewStyle}>
       </View>
     </Window>
   )
 }
 
-const containerStyle = ``
+const viewStyle = ``
 
-const styleSheet = ``
+const windowStylesheet = ``
 
 export default hot(App)
